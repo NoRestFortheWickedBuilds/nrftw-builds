@@ -16,7 +16,7 @@ export default function Home() {
           <Link href="/juggernaut" className={styles.card}>
             <h2>Juggernaut Build</h2>
             <p>by Larry Puss – Tier S</p>
-            <p>🎥 Watch + Gear + Stats + Slider</p>
+            <p>💥 Tanky & Rune-Supported Greatsword Build</p>
           </Link>
         </div>
       </main>
