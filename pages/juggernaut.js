@@ -6,52 +6,33 @@ export default function JuggernautBuild() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Juggernaut Build – NRFTW</title>
-        <meta name="description" content="Larry Puss' Juggernaut Build for No Rest for the Wicked – gear, enchantments, runes, and level-up progression." />
+        <title>Juggernaut Build – No Rest for the Wicked</title>
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Juggernaut Build</h1>
-        <p className={styles.meta}>by <strong>Larry Puss</strong> • Tier: <strong>S</strong></p>
-        <div className={styles.videoWrapper}>
-          <a href="https://www.youtube.com/watch?v=tehiq6Jflik" target="_blank" rel="noopener noreferrer">
-            <img src="/juggernaut-thumb.jpg" alt="Juggernaut Build Video Thumbnail" className={styles.thumbnail} />
-            <div className={styles.playOverlay}>▶ Watch on YouTube</div>
-          </a>
-        </div>
+        <p className={styles.meta}>by Larry Puss – Max Level Build</p>
 
-        <h2>Gear</h2>
-        <ul>
-          <li><strong>Weapon:</strong> The Breach (Two-Handed Sword)</li>
-          <li><strong>Helm:</strong> Breach Helm</li>
-          <li><strong>Armor:</strong> Breach Armor</li>
-          <li><strong>Gloves:</strong> Breach Gauntlets</li>
-          <li><strong>Leggings:</strong> Breach Greaves</li>
-        </ul>
+        <section className={styles.section}>
+          <h2>Character Stats</h2>
+          <table className={styles.statsTable}>
+            <tbody>
+              <tr><td>Health</td><td>40</td></tr>
+              <tr><td>Stamina</td><td>10</td></tr>
+              <tr><td>Strength</td><td>10</td></tr>
+              <tr><td>Dexterity</td><td>10</td></tr>
+              <tr><td>Intelligence</td><td>10</td></tr>
+              <tr><td>Faith</td><td>57</td></tr>
+              <tr><td>Focus</td><td>10</td></tr>
+              <tr><td>Equip Load</td><td>20</td></tr>
+            </tbody>
+          </table>
+        </section>
 
-        <h2>Enchantments</h2>
-        <ul>
-          <li><strong>The Breach:</strong> Increased Poise Damage, Critical Chance</li>
-          <li><strong>Armor:</strong> Increased Health, Physical Resistance</li>
-          <li><strong>Accessories:</strong> Focus Regen, Equip Load</li>
-        </ul>
-
-        <h2>Runes</h2>
-        <ul>
-          <li><strong>Main Rune:</strong> Shatter</li>
-          <li><strong>Secondary Runes:</strong> Restore, Rampage</li>
-        </ul>
-
-        <h2>Level-Up Stats at Level 35</h2>
-        <ul>
-          <li><strong>Strength:</strong> 28</li>
-          <li><strong>Dexterity:</strong> 10</li>
-          <li><strong>Focus:</strong> 22</li>
-          <li><strong>Endurance:</strong> 15</li>
-          <li><strong>Stamina:</strong> 10</li>
-        </ul>
-
-        <h2>Gameplay Style</h2>
-        <p>Focuses on poise breaking enemies quickly, chaining runes for high burst, and sustaining through rune regen. Works best with aggressive positioning and timing Shatter at peak stagger windows.</p>
+        <section className={styles.section}>
+          <h2>Gear Overview</h2>
+          <img src="/gear-placeholder.jpg" alt="Gear Screenshot" className={styles.gearImage} />
+          <p className={styles.note}>Gear, runes, enchantments, and gems will be interactive in Stage 2.</p>
+        </section>
 
         <Link href="/" className={styles.backLink}>← Back to Home</Link>
       </main>

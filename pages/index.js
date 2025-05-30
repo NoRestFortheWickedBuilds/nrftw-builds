@@ -7,16 +7,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>No Rest for the Wicked Builds</title>
-        <meta name="description" content="Featured NRFTW builds by top creators" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>No Rest for the Wicked Builds</h1>
-        <p className={styles.subtitle}>Tap a build below to view full details</p>
         <div className={styles.grid}>
           <Link href="/juggernaut" className={styles.card}>
             <h2>Juggernaut Build</h2>
-            <p>by Larry Puss – Tier S</p>
-            <p>💥 Tanky & Rune-Supported Greatsword Build</p>
+            <p>by Larry Puss</p>
+            <p>Fastest + Highest Damage (Faith-Based)</p>
           </Link>
         </div>
       </main>
