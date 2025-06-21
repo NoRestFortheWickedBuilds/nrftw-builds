@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "cold-mage/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "fire-mage/*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/cold-mage", "dest": "/cold-mage/cold-mage.html" },
+    { "src": "/fire-mage", "dest": "/fire-mage/fire-mage.html" }
+  ]
+}
