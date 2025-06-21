@@ -12,14 +12,15 @@ a {
 
 .header {
   position: relative;
-  background-image: url('/header-background.jpeg');
+  height: 250px;
+  background-image: url('/public/header-background.jpeg');
   background-size: cover;
   background-position: center;
-  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.5); /* Optional dark tint */
