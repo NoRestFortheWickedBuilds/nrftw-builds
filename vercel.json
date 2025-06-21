@@ -12,6 +12,14 @@
     {
       "src": "fire-mage/*.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "styles/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
