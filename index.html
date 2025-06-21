@@ -4,96 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WickedGuides - Meta Builds</title>
+  <title>WickedGuides</title>
   <link rel="stylesheet" href="styles/main.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0f1621;
-      color: #fff;
-    }
-
-    .header {
-      position: relative;
-      height: 250px;
-      background: url('/header-background.jpeg') center/cover no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .header h1 {
-      color: #ffd700;
-      font-size: 2.5rem;
-      text-shadow: 2px 2px 4px #000;
-      margin: 0;
-    }
-
-    nav {
-      background-color: #1b1b1b;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
-    }
-
-    nav a {
-      color: #ddd;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #ffd700;
-    }
-
-    .builds-container {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    h2 {
-      text-align: center;
-      color: #ffd700;
-      margin-bottom: 20px;
-    }
-
-    .build-entry {
-      display: flex;
-      align-items: center;
-      background-color: #1a2733;
-      border: 1px solid #00bfff;
-      border-radius: 10px;
-      padding: 10px;
-      margin: 10px 0;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-
-    .build-entry:hover {
-      background-color: #22394d;
-    }
-
-    .build-entry img {
-      width: 40px;
-      height: 40px;
-      margin-right: 15px;
-    }
-
-    .build-entry span {
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
 <body>
-
-  <div class="header">
-    <h1>WickedGuides</h1>
-  </div>
-
-  <nav>
+  <header class="header">
+    <div class="overlay">
+      <h1 class="site-title">WickedGuides</h1>
+    </div>
+  </header>
+  <nav class="navbar">
     <a href="#">Meta Builds</a>
     <a href="#">Leveling Guide</a>
     <a href="#">TierList</a>
@@ -103,59 +23,46 @@
     <a href="#">Database</a>
   </nav>
 
-  <div class="builds-container">
-    <h2>Meta Builds</h2>
+  <main class="main-content">
+    <h2 class="section-title">Meta Builds</h2>
+    <div class="build-list">
 
-    <a href="cold-mage/index.html">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Cold Mage Icon" />
+      <a href="cold-mage/cold-mage.html" class="build-entry">
+        <span class="build-icon">❄️</span>
         <span>Cold Mage</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="fire-mage/index.html">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Fire Mage Icon" />
+      <a href="fire-mage/fire-mage.html" class="build-entry">
+        <span class="build-icon">🔥</span>
         <span>Fire Mage</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="#">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Lightning Mage Icon" />
+      <a href="#" class="build-entry">
+        <span class="build-icon">⚡</span>
         <span>Lightning Mage</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="#">
-      <div class="build-entry">
-        <img src="public/juggernaut-thumb.jpg" alt="Juggernaut Icon" />
+      <a href="#" class="build-entry">
+        <span class="build-icon">🛡️</span>
         <span>Juggernaut</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="#">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Melee-Tank Icon" />
+      <a href="#" class="build-entry">
+        <span class="build-icon">🗡️</span>
         <span>Melee-Tank Build</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="#">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Bow Build Icon" />
+      <a href="#" class="build-entry">
+        <span class="build-icon">🏹</span>
         <span>Bow Build</span>
-      </div>
-    </a>
+      </a>
 
-    <a href="#">
-      <div class="build-entry">
-        <img src="public/gear-placeholder.jpg" alt="Ninja Icon" />
+      <a href="#" class="build-entry">
+        <span class="build-icon">👤</span>
         <span>Ninja-Wakizashi Build</span>
-      </div>
-    </a>
+      </a>
 
-  </div>
-
+    </div>
+  </main>
 </body>
 </html>
