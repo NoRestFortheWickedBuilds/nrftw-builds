@@ -2,132 +2,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WickedGuides - Meta Builds</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #0e1621;
-            color: #f5f5f5;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WickedGuides - Meta Builds</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f1621;
+      color: #fff;
+    }
 
-        .banner {
-            width: 100%;
-            height: 300px;
-            background: url('/public/header-background.jpeg') no-repeat center center;
-            background-size: cover;
-            position: relative;
-        }
+    .header {
+      position: relative;
+      height: 250px;
+      background: url('/header-background.jpeg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        .site-title {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #ffd700;
-            font-size: 3em;
-            font-weight: bold;
-            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
-        }
+    .header h1 {
+      color: #ffd700;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px #000;
+      margin: 0;
+    }
 
-        nav {
-            background-color: #1a1a1a;
-            padding: 10px;
-            text-align: center;
-        }
+    nav {
+      background-color: #1b1b1b;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
 
-        nav a {
-            color: #f5f5f5;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+    nav a {
+      color: #ddd;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        .content {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
+    nav a:hover {
+      color: #ffd700;
+    }
 
-        .content h2 {
-            color: #ffd700;
-            text-align: center;
-            margin-bottom: 20px;
-        }
+    .builds-container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
 
-        .build-link {
-            display: flex;
-            align-items: center;
-            background-color: #1f2a38;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #f5f5f5;
-            transition: background-color 0.3s ease;
-        }
+    h2 {
+      text-align: center;
+      color: #ffd700;
+      margin-bottom: 20px;
+    }
 
-        .build-link:hover {
-            background-color: #2c3b50;
-        }
+    .build-entry {
+      display: flex;
+      align-items: center;
+      background-color: #1a2733;
+      border: 1px solid #00bfff;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-        .build-link img {
-            width: 60px;
-            height: 60px;
-            object-fit: contain;
-            margin-right: 20px;
-        }
+    .build-entry:hover {
+      background-color: #22394d;
+    }
 
-        .build-link span {
-            font-size: 1.2em;
-        }
-    </style>
+    .build-entry img {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
+
+    .build-entry span {
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="banner">
-        <div class="site-title">WickedGuides</div>
-    </div>
-    <nav>
-        <a href="#">Meta Builds</a>
-        <a href="#">Leveling Guide</a>
-        <a href="#">TierList</a>
-        <a href="#">My Builds</a>
-        <a href="#">Build Planner</a>
-        <a href="#">Map</a>
-        <a href="#">Database</a>
-    </nav>
-    <div class="content">
-        <h2>Meta Builds</h2>
-        <a class="build-link" href="/cold-mage/cold-mage.html">
-            <img src="/public/gear-placeholder" alt="Cold Mage" />
-            <span>Cold Mage</span>
-        </a>
-        <a class="build-link" href="/fire-mage/fire-mage.html">
-            <img src="/public/gear-placeholder" alt="Fire Mage" />
-            <span>Fire Mage</span>
-        </a>
-        <a class="build-link" href="#">
-            <img src="/public/gear-placeholder" alt="Lightning Mage" />
-            <span>Lightning Mage</span>
-        </a>
-        <a class="build-link" href="#">
-            <img src="/public/juggernaut-thumb" alt="Juggernaut" />
-            <span>Juggernaut</span>
-        </a>
-        <a class="build-link" href="#">
-            <img src="/public/gear-placeholder" alt="Melee-Tank Build" />
-            <span>Melee-Tank Build</span>
-        </a>
-        <a class="build-link" href="#">
-            <img src="/public/gear-placeholder" alt="Bow Build" />
-            <span>Bow Build</span>
-        </a>
-        <a class="build-link" href="#">
-            <img src="/public/gear-placeholder" alt="Ninja-Wakizashi Build" />
-            <span>Ninja-Wakizashi Build</span>
-        </a>
-    </div>
+
+  <div class="header">
+    <h1>WickedGuides</h1>
+  </div>
+
+  <nav>
+    <a href="#">Meta Builds</a>
+    <a href="#">Leveling Guide</a>
+    <a href="#">TierList</a>
+    <a href="#">My Builds</a>
+    <a href="#">Build Planner</a>
+    <a href="#">Map</a>
+    <a href="#">Database</a>
+  </nav>
+
+  <div class="builds-container">
+    <h2>Meta Builds</h2>
+
+    <a href="cold-mage/index.html">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Cold Mage Icon" />
+        <span>Cold Mage</span>
+      </div>
+    </a>
+
+    <a href="fire-mage/index.html">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Fire Mage Icon" />
+        <span>Fire Mage</span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Lightning Mage Icon" />
+        <span>Lightning Mage</span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="build-entry">
+        <img src="public/juggernaut-thumb.jpg" alt="Juggernaut Icon" />
+        <span>Juggernaut</span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Melee-Tank Icon" />
+        <span>Melee-Tank Build</span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Bow Build Icon" />
+        <span>Bow Build</span>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="build-entry">
+        <img src="public/gear-placeholder.jpg" alt="Ninja Icon" />
+        <span>Ninja-Wakizashi Build</span>
+      </div>
+    </a>
+
+  </div>
+
 </body>
 </html>
