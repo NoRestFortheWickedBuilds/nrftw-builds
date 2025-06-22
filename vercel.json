@@ -1,36 +1,12 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "cold-mage/*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "fire-mage/*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "lightning-mage/*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "styles/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "public/**", "use": "@vercel/static" },
+    { "src": "styles/**", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
-    { "src": "/melee-tank", "dest": "/melee-tank.html" },
-    { "src": "/cold-mage", "dest": "/cold-mage/cold-mage.html" },
-    { "src": "/fire-mage", "dest": "/fire-mage/fire-mage.html" },
-    { "src": "/lightning-mage", "dest": "/lightning-mage/lightning-mage.html" }
+    { "src": "/melee-tank", "dest": "/public/melee-tank.html" }
   ]
 }
