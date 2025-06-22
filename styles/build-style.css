@@ -1,0 +1,47 @@
+body {
+  background-image: url('/background-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Build Title */
+h1 {
+  color: #ffd700;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+/* Section Headings */
+h2 {
+  color: #f0c800;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #f0c800;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+/* Gear headings (bold, not as large) */
+h3 {
+  color: #f0c800;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Creator/Video Link Labels */
+strong {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Divider lines */
+hr {
+  border: none;
+  border-top: 2px solid #f0c800;
+  margin: 40px 0;
+}
