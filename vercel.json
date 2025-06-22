@@ -28,10 +28,9 @@
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
-    { "src": "/melee-tank", "dest": "/melee-tank/melee-tank.html" }
-{ "src": "/cold-mage", "dest": "/cold-mage/cold-mage.html" },
+    { "src": "/melee-tank", "dest": "/melee-tank.html" },
+    { "src": "/cold-mage", "dest": "/cold-mage/cold-mage.html" },
     { "src": "/fire-mage", "dest": "/fire-mage/fire-mage.html" },
     { "src": "/lightning-mage", "dest": "/lightning-mage/lightning-mage.html" }
   ]
 }
-
