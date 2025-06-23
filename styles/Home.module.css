@@ -36,6 +36,7 @@
   padding: 10px 40px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -44,6 +45,11 @@
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbarLeft a:hover {
+  text-decoration: underline;
 }
 
 .main {
