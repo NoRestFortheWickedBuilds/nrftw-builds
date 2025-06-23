@@ -31,16 +31,16 @@
   z-index: 1;
 }
 
-.navbar {
+.navbarLeft {
   background-color: #1f1f1f;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.navbar a {
+.navbarLeft a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -58,16 +58,18 @@
 .buildList {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 15px;
+  margin: 0 auto;
+  max-width: 300px;
 }
 
 .buildCard {
   background-color: #1f1f1f;
   padding: 15px 30px;
   border-radius: 8px;
-  width: 250px;
-  text-align: center;
+  width: 100%;
+  text-align: left;
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
