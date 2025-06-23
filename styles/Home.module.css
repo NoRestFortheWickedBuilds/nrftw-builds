@@ -31,24 +31,23 @@
   z-index: 1;
 }
 
-.navbarLeft {
+.navbar {
   background-color: #1f1f1f;
-  padding: 10px 40px;
+  padding: 10px 20px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.navbarLeft a {
+.navbar a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.navbarLeft a:hover {
+.navbar a:hover {
   text-decoration: underline;
 }
 
