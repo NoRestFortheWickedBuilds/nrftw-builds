@@ -31,7 +31,7 @@
     { "src": "/melee-tank", "dest": "/melee-tank.html" },
     { "src": "/bow", "dest": "/bow.html" },
     { "src": "/ninja-wakizashi", "dest": "/ninja-wakizashi.html" },
-{ "src": "/cold-mage", "dest": "/cold-mage.html" }
+    { "src": "/cold-mage", "dest": "/cold-mage.html" },
     { "src": "/background-image.jpeg", "dest": "/public/background-image.jpeg" },
     { "src": "/styles/(.*)", "dest": "/styles/$1" }
   ]
