@@ -1,12 +1,27 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "public/**", "use": "@vercel/static" },
-    { "src": "styles/**", "use": "@vercel/static" }
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "melee-tank.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
-    { "src": "/melee-tank", "dest": "/public/melee-tank.html" }
+    { "src": "/melee-tank", "dest": "/melee-tank.html" },
+    { "src": "/background-image.jpeg", "dest": "/public/background-image.jpeg" },
+    { "src": "/styles/(.*)", "dest": "/styles/$1" }
   ]
 }
