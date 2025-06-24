@@ -61,6 +61,36 @@ export default function ColdMage() {
             <li>Indestructible</li>
             <li>Unrepairable</li>
           </ul>
+
+          <h4>Pants: Cloth</h4>
+          <p><strong>Gem:</strong> Max Stamina increased by 15%</p>
+          <p><strong>Enchantments:</strong></p>
+          <ul>
+            <li>+25% Movement Speed while above 90% Health</li>
+            <li>+30% Resistance while Standing Still</li>
+            <li>Immune to Frost Slow</li>
+            <li>15% Weight Reduction</li>
+            <li>Can equip any Rune</li>
+          </ul>
+
+          <h4>Gloves: Cloth</h4>
+          <p><strong>Gem:</strong> Max Faith increased by 15%</p>
+          <p><strong>Enchantments:</strong></p>
+          <ul>
+            <li>Cooldown Reduction increased by 20%</li>
+            <li>Focus Gain increased by 15%</li>
+            <li>Rune Damage increased by 25%</li>
+            <li>Indestructible</li>
+            <li>Unrepairable</li>
+          </ul>
+
+          <h4>Ring 1: Ring of Ice</h4>
+          <p><strong>Gem:</strong> Gain 5 Health on Rune Attack</p>
+          <p><strong>Enchantments:</strong> Cold Damage increased by 15%</p>
+
+          <h4>Ring 2: Ring of Focus</h4>
+          <p><strong>Gem:</strong> Gain 5 Focus on Rune Attack</p>
+          <p><strong>Enchantments:</strong> Focus Gain increased by 15%</p>
         </section>
       </main>
     </div>
