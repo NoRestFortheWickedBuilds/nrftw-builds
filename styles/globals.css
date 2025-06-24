@@ -8,11 +8,30 @@ body {
   text-align: center;
 }
 
+.top-nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+}
+
+.top-nav a {
+  color: yellow;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
 .header {
   background-image: url('/background/header-background.jpeg');
   background-size: cover;
   background-position: center;
-  padding: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {

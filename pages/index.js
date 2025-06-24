@@ -3,6 +3,15 @@ import React from 'react';
 
 const Home = () => (
   <div className="landing-page">
+    <div className="top-nav">
+      <a href="#">Meta Builds</a>
+      <a href="#">Leveling Guide</a>
+      <a href="#">Tier List</a>
+      <a href="#">My Builds</a>
+      <a href="#">Build Planner</a>
+      <a href="#">Map</a>
+      <a href="#">Database</a>
+    </div>
     <div className="header">
       <h1>WickedGuides</h1>
     </div>
