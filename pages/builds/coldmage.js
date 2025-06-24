@@ -3,6 +3,9 @@ import React from 'react';
 
 const ColdMage = () => (
   <div className="build-page">
+    <h1>Cold Mage Build</h1>
+    <p><strong>By:</strong> Larry Puss</p>
+    <p><a href="https://youtu.be/bZde1LrAmAE?si=f-OlHsT_Nv8G9BSa" target="_blank">Watch Build Guide on YouTube</a></p>
     <div class='character-stats-box'>
 <h2>Character Stats</h2>
 <ul>
@@ -32,12 +35,6 @@ const ColdMage = () => (
       <li>Unrepairable</li>
     </ul>
   </li>
-</ul>
-<h3>Weapon 2: nan</h3>
-<ul>
-</ul>
-<h3>Off-Hand: nan</h3>
-<ul>
 </ul>
 <h3>Helmet: Cloth</h3>
 <ul>
