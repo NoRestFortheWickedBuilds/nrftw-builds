@@ -1,6 +1,4 @@
 
-import '../../styles/globals.css';
-
 export default function Firemage() {
   return (
     <div className="build-page">

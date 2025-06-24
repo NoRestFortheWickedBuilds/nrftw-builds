@@ -1,6 +1,4 @@
 
-import '../../styles/globals.css';
-
 export default function Ninjawakizashi() {
   return (
     <div className="build-page">

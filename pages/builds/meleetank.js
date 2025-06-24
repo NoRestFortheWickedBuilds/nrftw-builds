@@ -1,6 +1,4 @@
 
-import '../../styles/globals.css';
-
 export default function Meleetank() {
   return (
     <div className="build-page">

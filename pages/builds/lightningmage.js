@@ -1,6 +1,4 @@
 
-import '../../styles/globals.css';
-
 export default function Lightningmage() {
   return (
     <div className="build-page">
