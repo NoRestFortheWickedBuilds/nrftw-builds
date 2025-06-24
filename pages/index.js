@@ -6,34 +6,34 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>WickedGuides - NRFTW Builds</title>
+        <title>Wicked Guides</title>
       </Head>
 
       <header className={styles.header}>
-        <img src="/header-background.jpeg" alt="Header Background" className={styles.headerBackground} />
-        <h1 className={styles.title}>WickedGuides</h1>
+        <img src="/background/header-background.jpeg" alt="Header Background" className={styles.headerBackground} />
+        <h1 className={styles.title}>Wicked Guides</h1>
       </header>
 
       <nav className={styles.navbar}>
-        <a href="#">Meta Builds</a>
-        <a href="#">Leveling Guide</a>
-        <a href="#">TierList</a>
-        <a href="#">My Builds</a>
-        <a href="#">Build Planner</a>
-        <a href="#">Map</a>
-        <a href="#">Database</a>
+        <a href="/">Meta Builds</a>
+        <a href="/">Leveling Guide</a>
+        <a href="/">TierList</a>
+        <a href="/">My Builds</a>
+        <a href="/">Build Planner</a>
+        <a href="/">Map</a>
+        <a href="/">Database</a>
       </nav>
 
       <main className={styles.main}>
         <h2 className={styles.sectionTitle}>Meta Builds</h2>
         <div className={styles.buildList}>
-          <a href="#" className={styles.buildCard}>❄ Cold Mage</a>
-          <a href="#" className={styles.buildCard}>🔥 Fire Mage</a>
-          <a href="#" className={styles.buildCard}>⚡ Lightning Mage</a>
-          <a href="#" className={styles.buildCard}>🛡 Juggernaut</a>
-          <a href="#" className={styles.buildCard}>⚔ Melee-Tank Build</a>
-          <a href="#" className={styles.buildCard}>🏹 Bow Build</a>
-          <a href="#" className={styles.buildCard}>🗡 Ninja-Wakizashi Build</a>
+          <a href="/builds/cold-mage" className={styles.buildCard}>Cold Mage</a>
+          <a href="/builds/fire-mage" className={styles.buildCard}>Fire Mage</a>
+          <a href="/builds/lightning-mage" className={styles.buildCard}>Lightning Mage</a>
+          <a href="/builds/bow" className={styles.buildCard}>Bow</a>
+          <a href="/builds/melee-tank" className={styles.buildCard}>Melee Tank</a>
+          <a href="/builds/ninja-wakizashi" className={styles.buildCard}>Ninja Wakizashi</a>
+          <a href="/builds/samurai" className={styles.buildCard}>Samurai</a>
         </div>
       </main>
     </div>
