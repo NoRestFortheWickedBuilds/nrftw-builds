@@ -5,7 +5,14 @@ export default function MeleeTank() {
     return (
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Melee-Tank Build</h1>
-            
+
+            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+                <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
+                <ul>
+    
+                </ul>
+            </div>
+
             <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
                 <p>By Larry Puss</p>
                 <a href="https://youtu.be/KuJYeqXWypo?si=vvehmFUOxAMLXDd-" target="_blank" rel="noopener noreferrer" style={{ color: "#00BFFF", fontSize: "18px" }}>Watch Build Guide on YouTube</a>
@@ -69,7 +76,6 @@ export default function MeleeTank() {
 <h4 className="silver-gear-title">Ring 1: Plagued Ring</h4>
 <h4 className="silver-gear-title">Ring 2: Snake Ring</h4>
 <h4 className="silver-gear-title">Ring 3: Feather Ring</h4>
-<h4 className="silver-gear-title">Character Stats: Level</h4>
 <h4 className="silver-gear-title">Health: 40</h4>
 <h4 className="silver-gear-title">Stamina: 10</h4>
 <h4 className="silver-gear-title">Strength: 50</h4>
