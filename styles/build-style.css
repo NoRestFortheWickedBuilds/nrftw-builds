@@ -1,6 +1,6 @@
 
 .build-page {
-  background-image: url('/background.jpeg');
+  background-image: url('/background/background-image.jpeg');
   background-size: cover;
   color: #fff;
   padding: 20px;
