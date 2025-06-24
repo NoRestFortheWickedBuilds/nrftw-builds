@@ -25,7 +25,7 @@ export default function ColdMage() {
 
             <h3 style={{ color: '#FFD700' }}>Weapons & Gear</h3>
 
-            <h4>Weapon 1: Endless Winter</h4>
+            <h4 className="silver-gear-title">Weapon 1: Endless Winter</h4>
             <ul>
                 <li>Runes: Homing Frost, Frost Stream, Homing Flurry</li>
                 <li>Gem: Lifesteal</li>
@@ -40,7 +40,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Helmet: Cloth</h4>
+            <h4 className="silver-gear-title">Helmet: Cloth</h4>
             <ul>
                 <li>Gem: Max Focus increased by 15%</li>
                 <li>Enchantments:
@@ -54,7 +54,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Body Armor: Cloth</h4>
+            <h4 className="silver-gear-title">Body Armor: Cloth</h4>
             <ul>
                 <li>Gem: Max Health increased by 15%</li>
                 <li>Enchantments:
@@ -68,7 +68,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Gloves: Cloth</h4>
+            <h4 className="silver-gear-title">Gloves: Cloth</h4>
             <ul>
                 <li>Gem: Focus Cost decreased by 10%</li>
                 <li>Enchantments:
@@ -82,7 +82,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Pants: Cloth</h4>
+            <h4 className="silver-gear-title">Pants: Cloth</h4>
             <ul>
                 <li>Gem: Max Stamina increased by 15%</li>
                 <li>Enchantments:
@@ -96,9 +96,9 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Ring 1: Ring of Broken Promises</h4>
-            <h4>Ring 2: Rune Ring</h4>
-            <h4>Ring 3: Plagued Ring</h4>
+            <h4 className="silver-gear-title">Ring 1: Ring of Broken Promises</h4>
+            <h4 className="silver-gear-title">Ring 2: Rune Ring</h4>
+            <h4 className="silver-gear-title">Ring 3: Plagued Ring</h4>
         </div>
     );
 }
