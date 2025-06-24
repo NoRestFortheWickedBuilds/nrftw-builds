@@ -4,7 +4,7 @@ export default function Juggernaut() {
     return (
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={ color: "gold", textAlign: "center" }>Juggernaut Build</h1>
-            <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
+            <div style={{ textAlign: "left", marginBottom: "20px", color: "#001F3F", fontSize: "18px" }}>
                 <p>By Larry Puss</p>
                 <a href="https://youtu.be/tehiq6Jflik?si=cJEiVdK3tGBBsP3M" target="_blank" rel="noopener noreferrer" style={ color: "#00BFFF", fontSize: "18px" }>Watch Build Guide on YouTube</a>
             </div>
