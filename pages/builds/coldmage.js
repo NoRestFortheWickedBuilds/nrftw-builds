@@ -1,5 +1,6 @@
 
 import React from 'react';
+import '../../styles/build-style.css';
 
 const ColdMage = () => (
   <div className="build-page">
