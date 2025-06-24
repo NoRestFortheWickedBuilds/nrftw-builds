@@ -9,7 +9,7 @@ export default function ColdMage() {
       <main className={styles.main}>
         <h1 className={styles.title}>Cold Mage Build</h1>
         <h2 className={styles.creator}>by Larry Puss</h2>
-        <p><a href="https://www.youtube.com/watch?v=tehiq6Jflik" target="_blank" rel="noopener noreferrer" className={styles.videoLink}>Watch Video Guide</a></p>
+        <p><a href="https://youtu.be/bZde1LrAmAE?si=f-OlHsT_Nv8G9BSa" target="_blank" rel="noopener noreferrer" className={styles.videoLink}>Watch Video Guide</a></p>
         
         <section className={styles.statsSection}>
           <h3>Character Stats</h3>
@@ -45,9 +45,9 @@ export default function ColdMage() {
           <p><strong>Enchantments:</strong></p>
           <ul>
             <li>Cold Damage increased by 25%</li>
-            <li>Gain 15 Focus on Buildup</li>
-            <li>6% Health per Rune Attack</li>
-            <li>15% Weight Reduction</li>
+            <li>Gain 15 Focus on inflicint any buildup</li>
+            <li>Gain 6% Health once per Rune Attack</li>
+            <li>Item Weight decreased by 15%</li>
             <li>Can equip any Rune</li>
           </ul>
 
@@ -55,9 +55,9 @@ export default function ColdMage() {
           <p><strong>Gem:</strong> Max Health increased by 15%</p>
           <p><strong>Enchantments:</strong></p>
           <ul>
-            <li>Damage Taken reduced by 10% based on Durability</li>
-            <li>Focus Gain increased by 20% based on Durability</li>
-            <li>Frozen Enemy Armor reduced by 50%</li>
+            <li>Damage Taken decreased by 10% based on Durability</li>
+            <li>Focus Gain increased by up to 20% based on Durability</li>
+            <li>Frozen Enemy Armor decreased by 50%</li>
             <li>Indestructible</li>
             <li>Unrepairable</li>
           </ul>
