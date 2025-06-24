@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
 body {
   background-color: #000;
@@ -24,12 +24,12 @@ h1 {
   color: yellow;
   margin: 0;
   font-size: 48px;
-  font-family: 'UnifrakturCook', cursive;
+  font-family: 'Cinzel Decorative', cursive;
   letter-spacing: 2px;
 }
 
 .top-nav {
-  background-color: rgba(25, 25, 25, 0.95);
+  background-color: #800000;
   padding: 12px 0;
 }
 
