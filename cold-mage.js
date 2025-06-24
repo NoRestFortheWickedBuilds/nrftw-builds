@@ -25,7 +25,7 @@ export default function ColdMage() {
 
             <h3 style={{ color: '#FFD700' }}>Weapons & Gear</h3>
 
-            <h4><span style="color: #C0C0C0;">Weapon 1:</span> Endless Winter</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Weapon 1: Endless Winter</h4>
             <ul>
                 <li>Runes: Homing Frost, Frost Stream, Homing Flurry</li>
                 <li>Gem: Lifesteal</li>
@@ -40,7 +40,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4><span style="color: #C0C0C0;">Helmet:</span> Cloth</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Helmet: Cloth</h4>
             <ul>
                 <li>Gem: Max Focus increased by 15%</li>
                 <li>Enchantments:
@@ -54,7 +54,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4><span style="color: #C0C0C0;">Body Armor:</span> Cloth</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Body Armor: Cloth</h4>
             <ul>
                 <li>Gem: Max Health increased by 15%</li>
                 <li>Enchantments:
@@ -68,7 +68,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4><span style="color: #C0C0C0;">Gloves:</span> Cloth</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Gloves: Cloth</h4>
             <ul>
                 <li>Gem: Focus Cost decreased by 10%</li>
                 <li>Enchantments:
@@ -82,7 +82,7 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4><span style="color: #C0C0C0;">Pants:</span> Cloth</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Pants: Cloth</h4>
             <ul>
                 <li>Gem: Max Stamina increased by 15%</li>
                 <li>Enchantments:
@@ -96,9 +96,9 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4><span style="color: #C0C0C0;">Ring 1:</span> Ring of Broken Promises</h4>
-            <h4><span style="color: #C0C0C0;">Ring 2:</span> Rune Ring</h4>
-            <h4><span style="color: #C0C0C0;">Ring 3:</span> Plagued Ring</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Ring 1: Ring of Broken Promises</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Ring 2: Rune Ring</h4>
+            <h4 style={{ color: '#C0C0C0' }}>Ring 3: Plagued Ring</h4>
         </div>
     );
 }
