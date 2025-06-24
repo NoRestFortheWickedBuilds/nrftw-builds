@@ -20,7 +20,8 @@ h2 {
 
 h3 {
   color: silver;
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
@@ -33,17 +34,17 @@ li {
 }
 
 .character-stats-box {
-  background-color: rgba(0, 0, 0, 0.5); /* translucent gray/black */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
-  border-radius: 10px; /* softened corners */
-  border: 1px solid silver; /* slight bevel edge */
+  border-radius: 10px;
+  border: 1px solid silver;
   margin-bottom: 20px;
 }
 
 .character-stats-box ul li strong {
-  color: #00BFFF; /* Blue for stat names */
+  color: #00BFFF;
 }
 
 .gear-section ul li strong {
-  color: yellow; /* Yellow highlights for gear details */
+  color: yellow;
 }
