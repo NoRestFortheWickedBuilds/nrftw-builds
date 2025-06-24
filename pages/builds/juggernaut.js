@@ -6,15 +6,7 @@ export default function Juggernaut() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Juggernaut Build</h1>
 
-            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
-                <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
-                <ul>
-    
-<li>Level</li>
-                </ul>
-            </div>
-
-            <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
+            <div style={ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }>
                 <p>By Larry Puss</p>
                 <a href="https://youtu.be/tehiq6Jflik?si=cJEiVdK3tGBBsP3M" target="_blank" rel="noopener noreferrer" style={{ color: "#00BFFF", fontSize: "18px" }}>Watch Build Guide on YouTube</a>
             </div>
@@ -98,6 +90,13 @@ export default function Juggernaut() {
 <h4 className="silver-gear-title">Faith: 57</h4>
 <h4 className="silver-gear-title">Focus: 10</h4>
 <h4 className="silver-gear-title">Equip Load: 20</h4>
-</div>
-);
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "30px auto 0 auto", color: "white", boxShadow: "0 0 10px rgba(0,0,0,0.5)" }}>
+                <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
+                <ul>
+    
+<li>Level</li>
+                </ul>
+            </div>
+        </div>
+    );
 }
