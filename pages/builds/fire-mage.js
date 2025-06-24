@@ -1,4 +1,6 @@
 
+// Updated spacing - Fire Mage Build
+
 import React from 'react';
 
 export default function FireMage() {

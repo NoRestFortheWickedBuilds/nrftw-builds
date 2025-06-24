@@ -1,4 +1,6 @@
 
+// Updated spacing - Lightning Mage Build
+
 import React from 'react';
 
 export default function LightningMage() {

@@ -1,4 +1,6 @@
 
+// Updated spacing - Juggernaut Build
+
 import React from 'react';
 
 export default function Juggernaut() {

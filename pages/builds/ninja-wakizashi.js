@@ -1,4 +1,6 @@
 
+// Updated spacing - Ninja Wakizashi Build
+
 import React from 'react';
 
 export default function NinjaWakizashi() {

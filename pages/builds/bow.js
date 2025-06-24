@@ -1,4 +1,6 @@
 
+// Updated spacing - Bow Build
+
 import React from 'react';
 
 export default function Bow() {
