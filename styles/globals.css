@@ -8,17 +8,26 @@ body {
   text-align: center;
 }
 
+.header {
+  background-image: url('/background/header-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
 h1 {
   color: yellow;
-  margin-top: 20px;
+  margin: 0;
   font-size: 36px;
 }
 
 nav {
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
+  padding: 10px 0;
 }
 
 nav a {
