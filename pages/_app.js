@@ -1,9 +1,14 @@
 
-import '../styles/build-style.css';
-import '../styles/globals.css'; // If you have globals.css, otherwise remove this line
+import '@/styles/globals.css'
+import Head from 'next/head'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
-
-export default MyApp;
