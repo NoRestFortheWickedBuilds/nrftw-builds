@@ -5,8 +5,9 @@ export default function ColdMage() {
     return (
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: 'cover', minHeight: '100vh', color: 'white', padding: '20px' }}>
             <h1 style={{ color: 'gold', textAlign: 'center' }}>Cold Mage Build</h1>
-            <h2 style={{ color: '#FFD700', textAlign: 'center' }}>By Larry Puss</h2>
-            <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+            
+            <div style={{ textAlign: 'left', marginBottom: '20px', color: '#00BFFF', fontSize: '18px' }}>
+                <p>By Larry Puss</p>
                 <a href="https://youtu.be/Sj3dq73uSBs" target="_blank" rel="noopener noreferrer" style={{ color: '#00BFFF', fontSize: '18px' }}>Watch Build Guide on YouTube</a>
             </div>
 
@@ -64,6 +65,44 @@ export default function ColdMage() {
                         <li>Unrepairable</li>
                     </ul>
                 </li>
+            </ul>
+
+            <h4>Pants: Cloth</h4>
+            <ul>
+                <li>Gem: Max Stamina increased by 15%</li>
+                <li>Enchantments:
+                    <ul>
+                        <li>+25% Movement Speed while above 90% Health</li>
+                        <li>+30% Resistance while Standing Still</li>
+                        <li>Immune to Frost Slow</li>
+                        <li>15% Weight Reduction</li>
+                        <li>Can equip any Rune</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Gloves: Cloth</h4>
+            <ul>
+                <li>Gem: Focus Cost decreased by 10%</li>
+                <li>Enchantments:
+                    <ul>
+                        <li>Cooldown Reduction increased by 20%</li>
+                        <li>Focus Gain increased by 15%</li>
+                        <li>Rune Damage increased by 25%</li>
+                        <li>Indestructible</li>
+                        <li>Unrepairable</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Ring 1: Ring of Ice</h4>
+            <ul>
+                <li>+10 Cold Damage</li>
+            </ul>
+
+            <h4>Ring 2: Ring of Focus</h4>
+            <ul>
+                <li>+10 Focus Gain</li>
             </ul>
         </div>
     );
