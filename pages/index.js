@@ -3,7 +3,9 @@ import React from 'react';
 
 const Home = () => (
   <div className="landing-page">
-    <h1>WickedGuides</h1>
+    <div className="header">
+      <h1>WickedGuides</h1>
+    </div>
     <nav>
       <a href="/builds/coldmage"><img src="/icons/coldmage-icon.png" alt="Cold Mage" className="icon" /> Cold Mage</a>
       <a href="/builds/firemage"><img src="/icons/firemage-icon.png" alt="Fire Mage" className="icon" /> Fire Mage</a>
