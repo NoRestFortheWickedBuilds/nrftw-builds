@@ -3,6 +3,9 @@ import React from 'react';
 
 const Home = () => (
   <div className="landing-page">
+    <div className="header">
+      <h1>Wicked Guides</h1>
+    </div>
     <div className="top-nav">
       <a href="#">Meta Builds</a>
       <a href="#">Leveling Guide</a>
@@ -11,9 +14,6 @@ const Home = () => (
       <a href="#">Build Planner</a>
       <a href="#">Map</a>
       <a href="#">Database</a>
-    </div>
-    <div className="header">
-      <h1>WickedGuides</h1>
     </div>
     <nav>
       <a href="/builds/coldmage"><img src="/icons/coldmage-icon.png" alt="Cold Mage" className="icon" /> Cold Mage</a>
