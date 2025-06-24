@@ -4,7 +4,7 @@ export default function ColdMage() {
     return (
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={ color: "gold", textAlign: "center" }>Cold Mage Build</h1>
-            <div style={{ textAlign: "left", marginBottom: "20px", color: "#001F3F", fontSize: "18px" }}>
+            <div style={{ textAlign: "left", marginBottom: "20px", color: "#8A2BE2", fontSize: "18px" }}>
                 <p>By Larry Puss</p>
                 <a href="https://youtu.be/bZde1LrAmAE?si=f-OlHsT_Nv8G9BSa" target="_blank" rel="noopener noreferrer" style={ color: "#00BFFF", fontSize: "18px" }>Watch Build Guide on YouTube</a>
             </div>
