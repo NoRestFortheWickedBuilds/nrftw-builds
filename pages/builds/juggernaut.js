@@ -1,6 +1,4 @@
 
-// Updated spacing - Juggernaut Build
-
 import React from "react";
 
 export default function Juggernaut() {
@@ -8,37 +6,91 @@ export default function Juggernaut() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Juggernaut Build</h1>
             
+            <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
+                <p>By Larry Puss</p>
+                <a href="https://youtu.be/tehiq6Jflik?si=cJEiVdK3tGBBsP3M" target="_blank" rel="noopener noreferrer" style={{ color: "#00BFFF", fontSize: "18px" }}>Watch Build Guide on YouTube</a>
+            </div>
+
             <h3 style={{ color: "#FFD700" }}>Weapons & Gear</h3>
-
-            <h4 className="silver-gear-title">Weapon 1: [Example Weapon]</h4>
-            <ul>
-                <li>Runes: Example Rune 1, Example Rune 2</li>
-                <li>Gem: Example Gem</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>Example Enchantment 1</li>
-                        <li>Example Enchantment 2</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4 className="silver-gear-title">Helmet: [Example Helmet]</h4>
-            <ul>
-                <li>Gem: Example Gem</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>Example Enchantment 1</li>
-                        <li>Example Enchantment 2</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4 className="silver-gear-title">Body Armor: [Example Armor]</h4>
-            <h4 className="silver-gear-title">Gloves: [Example Gloves]</h4>
-            <h4 className="silver-gear-title">Pants: [Example Pants]</h4>
-            <h4 className="silver-gear-title">Ring 1: [Example Ring]</h4>
-            <h4 className="silver-gear-title">Ring 2: [Example Ring]</h4>
-            <h4 className="silver-gear-title">Ring 3: [Example Ring]</h4>
-        </div>
-    );
+    
+<h4 className="silver-gear-title">Weapon 1: Cursed Unguis</h4>
+<ul>
+<li>Rune 1: Plague Retch</li>
+<li>Rune 2: Frontflip Kick</li>
+<li>Rune 3: Damage Surge</li>
+<li>Rune 4: Dropkick</li>
+<li>Gem: Cold Damage Infusion</li>
+<li>Enchantments:<ul>
+<li>Attack Speed Increased by up to 15% based on Durability</li>
+<li>Healing increased by up to 20% based on Durability</li>
+<li>Stamina Recovery increased by up to 25% based on Durability</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Weapon 2: Fetid Club</h4>
+<ul>
+<li>Rune 1: Crushing Quad</li>
+<li>Rune 2: Pole Flurry</li>
+<li>Rune 3: Whirlwind</li>
+<li>Rune 4: Berserk Strike</li>
+<li>Gem: Physical Damage increased by 10%</li>
+<li>Enchantments:<ul>
+<li>Damage increased by 10% of Current Weight</li>
+<li>Damage Taken decreased by 20% while Charging</li>
+<li>Refill Stamina on Staggering an Enemy</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Helmet: Plate</h4>
+<ul>
+<li>Gem: Frost Buildup increased by 15%</li>
+<li>Enchantments:<ul>
+<li>Cold Damage increased by 25%</li>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Stamina Recovery increased by up to 25% based on Durability</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Body Armor: Plate</h4>
+<ul>
+<li>Gem: Max Stamina increased by 10%</li>
+<li>Enchantments:<ul>
+<li>Frozen Enemy Armor decreased by 50%</li>
+<li>Max Health increased by 10% of Max Focus</li>
+<li>Stamina Recovery increased by up to 25% based on Durability</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Gloves: Plate</h4>
+<ul>
+<li>Gem: Frost Buildup increased by 15%</li>
+<li>Enchantments:<ul>
+<li>Frost Buildup increased by 30%</li>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Stamina Recovery increased by up to 25% based on Durability</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Pants: Plate</h4>
+<ul>
+<li>Gem: Max Stamina increased by 10%</li>
+<li>Enchantments:<ul>
+<li>Damage increased by 30% for 6 seconds after Damage Dodged</li>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Max Stamina increased by 5% of Max Focus</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Ring 1: Plagued Ring</h4>
+<h4 className="silver-gear-title">Ring 2: Willowcap Ring</h4>
+<h4 className="silver-gear-title">Ring 3: Jade Ring</h4>
+<h4 className="silver-gear-title">Character Stats: Level</h4>
+<h4 className="silver-gear-title">Health: 40</h4>
+<h4 className="silver-gear-title">Stamina: 10</h4>
+<h4 className="silver-gear-title">Strength: 10</h4>
+<h4 className="silver-gear-title">Dexterity: 10</h4>
+<h4 className="silver-gear-title">Intelligence: 10</h4>
+<h4 className="silver-gear-title">Faith: 57</h4>
+<h4 className="silver-gear-title">Focus: 10</h4>
+<h4 className="silver-gear-title">Equip Load: 20</h4>
+</div>
+);
 }

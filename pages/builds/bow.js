@@ -1,6 +1,4 @@
 
-// Updated spacing - Bow Build
-
 import React from "react";
 
 export default function Bow() {
@@ -8,37 +6,91 @@ export default function Bow() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Bow Build</h1>
             
+            <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
+                <p>By Zelendes</p>
+                <a href="https://youtu.be/cMatlgi0ziQ?si=pz4YgbDjKFfOfA1m" target="_blank" rel="noopener noreferrer" style={{ color: "#00BFFF", fontSize: "18px" }}>Watch Build Guide on YouTube</a>
+            </div>
+
             <h3 style={{ color: "#FFD700" }}>Weapons & Gear</h3>
-
-            <h4 className="silver-gear-title">Weapon 1: [Example Weapon]</h4>
-            <ul>
-                <li>Runes: Example Rune 1, Example Rune 2</li>
-                <li>Gem: Example Gem</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>Example Enchantment 1</li>
-                        <li>Example Enchantment 2</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4 className="silver-gear-title">Helmet: [Example Helmet]</h4>
-            <ul>
-                <li>Gem: Example Gem</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>Example Enchantment 1</li>
-                        <li>Example Enchantment 2</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4 className="silver-gear-title">Body Armor: [Example Armor]</h4>
-            <h4 className="silver-gear-title">Gloves: [Example Gloves]</h4>
-            <h4 className="silver-gear-title">Pants: [Example Pants]</h4>
-            <h4 className="silver-gear-title">Ring 1: [Example Ring]</h4>
-            <h4 className="silver-gear-title">Ring 2: [Example Ring]</h4>
-            <h4 className="silver-gear-title">Ring 3: [Example Ring]</h4>
-        </div>
-    );
+    
+<h4 className="silver-gear-title">Weapon 1: Falstead's Fury</h4>
+<ul>
+<li>Rune 1: Triple Swipe</li>
+<li>Rune 2: Kick Slash</li>
+<li>Rune 3: Crushing Slam</li>
+<li>Rune 4: Damage Surge</li>
+<li>Gem: Item Weight decreased by 15%</li>
+<li>Enchantments:<ul>
+<li>Damage increased by 20% against Large Enemies</li>
+<li>Damage increased by 30% at Full Health</li>
+<li>Max Health increased by 20%</li>
+<li>Deal 24% Damage on Parry</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Off-Hand: Woodland Protector</h4>
+<ul>
+<li>Rune 1: Arrow</li>
+<li>Rune 2: Lightning Arrow</li>
+<li>Rune 3: Cone Shot</li>
+<li>Gem: Electric Damage Infusion</li>
+<li>Enchantments:<ul>
+<li>Dmage increased by up to 15% based on Durability</li>
+<li>Gain 5% Health on Damage Dodged</li>
+<li>Item Weight decreased by 15%</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Helmet: Leather</h4>
+<ul>
+<li>Gem: Shock Buildup increased by 15%</li>
+<li>Enchantments:<ul>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Electric Damage increased by 25%</li>
+<li>Gain 15 Focus on inflicting Any Buildup</li>
+<li>Healing increased by up to 20% based on Durability</li>
+<li>Any</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Body Armor: Cloth</h4>
+<ul>
+<li>Gem: Focus Cost decreased by 5%</li>
+<li>Enchantments:<ul>
+<li>Damage Taken decreased by 50% for 6 seconds after being afflicted by Any Buildup</li>
+<li>Damage increased by 30% for 6 seconds after Staggering an Enemy</li>
+<li>Overall Speed increased by 15% for 10 seconds after inflicting Shock Buildup</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Gloves: Mesh</h4>
+<ul>
+<li>Gem: Shock Buildup increased by 15%</li>
+<li>Enchantments:<ul>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Gain 10% Health on Kill</li>
+<li>Shock Buildup increased by 30%</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Pants: Mesh</h4>
+<ul>
+<li>Gem: Focus Cost decreased by 5%</li>
+<li>Enchantments:<ul>
+<li>Damage increased by 10% after Sprinting for 2 seconds</li>
+<li>Damage Taken decreased by up to 10% based on Durability</li>
+<li>Item Weight decreased by 15%</li>
+<li>Indestructible</li>
+<li>Unrepairable</li></ul></li>
+</ul>
+<h4 className="silver-gear-title">Ring 1: Rune Ring</h4>
+<h4 className="silver-gear-title">Ring 2: Rune of Broken Promises</h4>
+<h4 className="silver-gear-title">Ring 3: Willow Cap Ring</h4>
+<h4 className="silver-gear-title">Character Stats: Level</h4>
+<h4 className="silver-gear-title">Health: 10</h4>
+<h4 className="silver-gear-title">Stamina: 10</h4>
+<h4 className="silver-gear-title">Strength: 10</h4>
+<h4 className="silver-gear-title">Dexterity: 50</h4>
+<h4 className="silver-gear-title">Intelligence: 10</h4>
+<h4 className="silver-gear-title">Faith: 50</h4>
+<h4 className="silver-gear-title">Focus: 13</h4>
+<h4 className="silver-gear-title">Equip Load: 14</h4>
+</div>
+);
 }
