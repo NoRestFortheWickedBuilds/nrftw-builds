@@ -97,6 +97,9 @@ const MeleeTank = () => (
 <h3>Ring 2: Snake Ring</h3>
 <ul>
 </ul>
+<h3>Ring 3: Feather Ring</h3>
+<ul>
+</ul>
 </div>
 
   </div>
