@@ -1,3 +1,4 @@
+
 export default function Juggernaut() {
     return (`
 <div style="background-image: url('/background/background-image.jpeg'); background-size: cover; min-height: 100vh; color: white; padding: 20px;">
@@ -94,5 +95,6 @@ export default function Juggernaut() {
 <h3 style="color: #FFD700;">Character Stats</h3>
 <ul>
 </ul>
-</div>`);
+</div>
+    `);
 }
