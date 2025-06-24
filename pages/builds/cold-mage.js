@@ -1,11 +1,9 @@
 
 import React from 'react';
-import Image from 'next/image';
-import backgroundImage from '../public/background-image.jpeg';
 
 export default function ColdMage() {
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage.src})`, backgroundSize: 'cover', minHeight: '100vh', color: 'white', padding: '20px' }}>
+        <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: 'cover', minHeight: '100vh', color: 'white', padding: '20px' }}>
             <h1 style={{ color: 'gold', textAlign: 'center' }}>Cold Mage Build</h1>
             <h2 style={{ color: '#FFD700', textAlign: 'center' }}>By Larry Puss</h2>
             <div style={{ textAlign: 'center', marginBottom: '20px' }}>
@@ -40,8 +38,6 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Weapon 2: N/A</h4>
-
             <h4>Helmet: Cloth</h4>
             <ul>
                 <li>Gem: Max Focus increased by 15%</li>
@@ -68,44 +64,6 @@ export default function ColdMage() {
                         <li>Unrepairable</li>
                     </ul>
                 </li>
-            </ul>
-
-            <h4>Pants: Cloth</h4>
-            <ul>
-                <li>Gem: Max Stamina increased by 15%</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>+25% Movement Speed while above 90% Health</li>
-                        <li>+30% Resistance while Standing Still</li>
-                        <li>Immune to Frost Slow</li>
-                        <li>15% Weight Reduction</li>
-                        <li>Can equip any Rune</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4>Gloves: Cloth</h4>
-            <ul>
-                <li>Gem: Max Faith increased by 15%</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>Cooldown Reduction increased by 20%</li>
-                        <li>Focus Gain increased by 15%</li>
-                        <li>Rune Damage increased by 25%</li>
-                        <li>Indestructible</li>
-                        <li>Unrepairable</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4>Ring 1: Ring of Ice</h4>
-            <ul>
-                <li>Effect: +10 Cold Damage</li>
-            </ul>
-
-            <h4>Ring 2: Ring of Focus</h4>
-            <ul>
-                <li>Effect: +10 Focus Gain</li>
             </ul>
         </div>
     );
