@@ -32,6 +32,14 @@ li {
   margin-bottom: 5px;
 }
 
+.character-stats-box {
+  background-color: rgba(0, 0, 0, 0.5); /* translucent gray/black */
+  padding: 15px;
+  border-radius: 10px; /* softened corners */
+  border: 1px solid silver; /* slight bevel edge */
+  margin-bottom: 20px;
+}
+
 .character-stats-box ul li strong {
   color: #00BFFF; /* Blue for stat names */
 }
