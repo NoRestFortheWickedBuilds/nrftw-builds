@@ -10,6 +10,7 @@ export default function Bow() {
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
+<li>Level</li>
                 </ul>
             </div>
 
