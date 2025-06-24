@@ -8,7 +8,7 @@ export default function ColdMage() {
             
             <div style={{ textAlign: 'left', marginBottom: '20px', color: '#00BFFF', fontSize: '18px' }}>
                 <p>By Larry Puss</p>
-                <a href="https://youtu.be/Sj3dq73uSBs" target="_blank" rel="noopener noreferrer" style={{ color: '#00BFFF', fontSize: '18px' }}>Watch Build Guide on YouTube</a>
+                <a href="https://youtu.be/bZde1LrAmAE?si=f-OlHsT_Nv8G9BSa" target="_blank" rel="noopener noreferrer" style={{ color: '#00BFFF', fontSize: '18px' }}>Watch Build Guide on YouTube</a>
             </div>
 
             <h3 style={{ color: '#FFD700' }}>Character Stats</h3>
@@ -17,7 +17,7 @@ export default function ColdMage() {
                 <li>Stamina: 10</li>
                 <li>Strength: 10</li>
                 <li>Dexterity: 10</li>
-                <li>Intelligence: 50</li>
+                <li>Intelligence: 10</li>
                 <li>Faith: 10</li>
                 <li>Focus: 10</li>
                 <li>Equip Load: 17</li>
@@ -28,6 +28,7 @@ export default function ColdMage() {
             <h4>Weapon 1: Endless Winter</h4>
             <ul>
                 <li>Runes: Homing Frost, Frost Stream, Homing Flurry</li>
+                <li>Gem: Lifesteal</li>
                 <li>Enchantments:
                     <ul>
                         <li>Damage increased by 30% against Large Enemies</li>
@@ -45,10 +46,10 @@ export default function ColdMage() {
                 <li>Enchantments:
                     <ul>
                         <li>Cold Damage increased by 25%</li>
-                        <li>Focus Gain increased by 15%</li>
-                        <li>+6% Health per Rune Attack</li>
-                        <li>15% Weight Reduction</li>
-                        <li>Can equip any Rune</li>
+                        <li>Gain 15 Focus on inflicint any buildup</li>
+                        <li>Gain 6% Health once per Rune Attack</li>
+                        <li>Item Weight decreased by 15%</li>
+                        <li>Any</li>
                     </ul>
                 </li>
             </ul>
@@ -67,43 +68,37 @@ export default function ColdMage() {
                 </li>
             </ul>
 
-            <h4>Pants: Cloth</h4>
-            <ul>
-                <li>Gem: Max Stamina increased by 15%</li>
-                <li>Enchantments:
-                    <ul>
-                        <li>+25% Movement Speed while above 90% Health</li>
-                        <li>+30% Resistance while Standing Still</li>
-                        <li>Immune to Frost Slow</li>
-                        <li>15% Weight Reduction</li>
-                        <li>Can equip any Rune</li>
-                    </ul>
-                </li>
-            </ul>
-
             <h4>Gloves: Cloth</h4>
             <ul>
                 <li>Gem: Focus Cost decreased by 10%</li>
                 <li>Enchantments:
                     <ul>
-                        <li>Cooldown Reduction increased by 20%</li>
-                        <li>Focus Gain increased by 15%</li>
-                        <li>Rune Damage increased by 25%</li>
+                        <li>Damage Taken decreased by 10% based on Durability</li>
+                        <li>Focus Gain increased by up to 20% based on Durability</li>
+                        <li>Frost Buildup increased by 30%</li>
                         <li>Indestructible</li>
                         <li>Unrepairable</li>
                     </ul>
                 </li>
             </ul>
 
-            <h4>Ring 1: Ring of Ice</h4>
+            <h4>Pants: Cloth</h4>
             <ul>
-                <li>+10 Cold Damage</li>
+                <li>Gem: Max Stamina increased by 15%</li>
+                <li>Enchantments:
+                    <ul>
+                        <li>Damage Taken decreased by 10% based on Durability</li>
+                        <li>Focus Gain increased by up to 20% based on Durability</li>
+                        <li>Item Weight decreased by 15%</li>
+                        <li>Indestructible</li>
+                        <li>Unrepairable</li>
+                    </ul>
+                </li>
             </ul>
 
-            <h4>Ring 2: Ring of Focus</h4>
-            <ul>
-                <li>+10 Focus Gain</li>
-            </ul>
+            <h4>Ring 1: Ring of Broken Promises</h4>
+            <h4>Ring 2: Rune Ring</h4>
+            <h4>Ring 3: Plagued Ring</h4>
         </div>
     );
 }
