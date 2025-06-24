@@ -1,14 +1,14 @@
 
 // Updated spacing - Ninja Wakizashi Build
 
-import React from 'react';
+import React from "react";
 
 export default function NinjaWakizashi() {
     return (
-        <div style={ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: 'cover', minHeight: '100vh', color: 'white', padding: '20px' }>
-            <h1 style={ color: 'gold', textAlign: 'center' }>Ninja Wakizashi Build</h1>
+        <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
+            <h1 style={{ color: "gold", textAlign: "center" }}>Ninja Wakizashi Build</h1>
             
-            <h3 style={ color: '#FFD700' }>Weapons & Gear</h3>
+            <h3 style={{ color: "#FFD700" }}>Weapons & Gear</h3>
 
             <h4 className="silver-gear-title">Weapon 1: [Example Weapon]</h4>
             <ul>
