@@ -3,15 +3,15 @@ import React from "react";
 
 export default function LightningMage() {
     return (
-        <div style={ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }>
-            <h1 style={ color: "gold", textAlign: "center" }>Lightning Mage Build</h1>
+        <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
+            <h1 style={{ color: "gold", textAlign: "center" }}>Lightning Mage Build</h1>
 
-            <div style={ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }>
+            <div style={{ textAlign: "left", marginBottom: "20px", color: "#00BFFF", fontSize: "18px" }}>
                 <p>By Zelendes</p>
-                <a href="https://youtu.be/xKoqfHO88HY?si=7qp95exBNk9Ni8ru" target="_blank" rel="noopener noreferrer" style={ color: "#00BFFF", fontSize: "18px" }>Watch Build Guide on YouTube</a>
+                <a href="https://youtu.be/xKoqfHO88HY?si=7qp95exBNk9Ni8ru" target="_blank" rel="noopener noreferrer" style={{ color: "#00BFFF", fontSize: "18px" }}>Watch Build Guide on YouTube</a>
             </div>
 
-            <h3 style={ color: "#FFD700" }>Weapons & Gear</h3>
+            <h3 style={{ color: "#FFD700" }}>Weapons & Gear</h3>
     
 <h4 className="silver-gear-title">Weapon 1: Tarnished Wand</h4>
 <ul>
