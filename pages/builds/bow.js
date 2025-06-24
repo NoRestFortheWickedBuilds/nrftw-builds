@@ -6,7 +6,7 @@ export default function Bow() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Bow Build</h1>
 
-            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
@@ -23,10 +23,10 @@ export default function Bow() {
     
 <h4 className="silver-gear-title">Weapon 1: Falstead's Fury</h4>
 <ul>
-<li>Rune 1: Triple Swipe</li>
-<li>Rune 2: Kick Slash</li>
-<li>Rune 3: Crushing Slam</li>
-<li>Rune 4: Damage Surge</li>
+<li>Rune Triple Swipe</li>
+<li>Rune Kick Slash</li>
+<li>Rune Crushing Slam</li>
+<li>Rune Damage Surge</li>
 <li>Gem: Item Weight decreased by 15%</li>
 <li>Enchantments:<ul>
 <li>Damage increased by 20% against Large Enemies</li>
@@ -36,9 +36,9 @@ export default function Bow() {
 </ul>
 <h4 className="silver-gear-title">Off-Hand: Woodland Protector</h4>
 <ul>
-<li>Rune 1: Arrow</li>
-<li>Rune 2: Lightning Arrow</li>
-<li>Rune 3: Cone Shot</li>
+<li>Rune Arrow</li>
+<li>Rune Lightning Arrow</li>
+<li>Rune Cone Shot</li>
 <li>Gem: Electric Damage Infusion</li>
 <li>Enchantments:<ul>
 <li>Dmage increased by up to 15% based on Durability</li>

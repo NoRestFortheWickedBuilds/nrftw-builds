@@ -6,7 +6,7 @@ export default function MeleeTank() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Melee-Tank Build</h1>
 
-            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
@@ -23,9 +23,9 @@ export default function MeleeTank() {
     
 <h4 className="silver-gear-title">Weapon 1: Tongue Splitter</h4>
 <ul>
-<li>Rune 1: Stormpiercer</li>
-<li>Rune 2: Damage Surge</li>
-<li>Rune 3: Tornado Strike</li>
+<li>Rune Stormpiercer</li>
+<li>Rune Damage Surge</li>
+<li>Rune Tornado Strike</li>
 <li>Gem: Lifesteal increased by 10%</li>
 <li>Enchantments:<ul>
 <li>Damage Increased 30% against Large Enemies</li>

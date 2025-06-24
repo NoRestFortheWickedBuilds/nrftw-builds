@@ -6,7 +6,7 @@ export default function NinjaWakizashi() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Ninja-Wakizashi Build</h1>
 
-            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
@@ -23,10 +23,10 @@ export default function NinjaWakizashi() {
     
 <h4 className="silver-gear-title">Weapon 1: Wind of Death</h4>
 <ul>
-<li>Rune 1: Plague Whirl</li>
-<li>Rune 2: Jump Cut</li>
-<li>Rune 3: Slashing Dash</li>
-<li>Rune 4: Twirl Dash</li>
+<li>Rune Plague Whirl</li>
+<li>Rune Jump Cut</li>
+<li>Rune Slashing Dash</li>
+<li>Rune Twirl Dash</li>
 <li>Gem: Electric Damage Infusion</li>
 <li>Enchantments:<ul>
 <li>Damage increased by up to 60% based on Missing Health</li>
@@ -35,10 +35,10 @@ export default function NinjaWakizashi() {
 </ul>
 <h4 className="silver-gear-title">Off-Hand: Short Bow</h4>
 <ul>
-<li>Rune 1: Arrow</li>
-<li>Rune 2: Muti Shot</li>
-<li>Rune 3: Electric Enchantment</li>
-<li>Rune 4: DAmage Surge</li>
+<li>Rune Arrow</li>
+<li>Rune Muti Shot</li>
+<li>Rune Electric Enchantment</li>
+<li>Rune DAmage Surge</li>
 <li>Gem: Lifesteal</li>
 <li>Enchantments:<ul>
 <li>Damage increased by 30% for 6 seconds after Damage Dodged</li>

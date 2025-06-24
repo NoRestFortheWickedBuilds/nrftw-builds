@@ -6,7 +6,7 @@ export default function Juggernaut() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Juggernaut Build</h1>
 
-            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
@@ -23,10 +23,10 @@ export default function Juggernaut() {
     
 <h4 className="silver-gear-title">Weapon 1: Cursed Unguis</h4>
 <ul>
-<li>Rune 1: Plague Retch</li>
-<li>Rune 2: Frontflip Kick</li>
-<li>Rune 3: Damage Surge</li>
-<li>Rune 4: Dropkick</li>
+<li>Rune Plague Retch</li>
+<li>Rune Frontflip Kick</li>
+<li>Rune Damage Surge</li>
+<li>Rune Dropkick</li>
 <li>Gem: Cold Damage Infusion</li>
 <li>Enchantments:<ul>
 <li>Attack Speed Increased by up to 15% based on Durability</li>
@@ -37,10 +37,10 @@ export default function Juggernaut() {
 </ul>
 <h4 className="silver-gear-title">Weapon 2: Fetid Club</h4>
 <ul>
-<li>Rune 1: Crushing Quad</li>
-<li>Rune 2: Pole Flurry</li>
-<li>Rune 3: Whirlwind</li>
-<li>Rune 4: Berserk Strike</li>
+<li>Rune Crushing Quad</li>
+<li>Rune Pole Flurry</li>
+<li>Rune Whirlwind</li>
+<li>Rune Berserk Strike</li>
 <li>Gem: Physical Damage increased by 10%</li>
 <li>Enchantments:<ul>
 <li>Damage increased by 10% of Current Weight</li>

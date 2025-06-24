@@ -6,7 +6,7 @@ export default function LightningMage() {
         <div style={{ backgroundImage: "url('/background/background-image.jpeg')", backgroundSize: "cover", minHeight: "100vh", color: "white", padding: "20px" }}>
             <h1 style={{ color: "gold", textAlign: "center" }}>Lightning Mage Build</h1>
 
-            <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto" }}>
+            <div style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", padding: "15px", borderRadius: "10px", maxWidth: "400px", margin: "0 auto 20px auto", color: "white" }}>
                 <h3 style={{ color: "#FFD700" }}>Character Stats</h3>
                 <ul>
     
@@ -23,9 +23,9 @@ export default function LightningMage() {
     
 <h4 className="silver-gear-title">Weapon 1: Tarnished Wand</h4>
 <ul>
-<li>Rune 1: Charged Bolt</li>
-<li>Rune 2: Static</li>
-<li>Rune 3: Lightning Bolt</li>
+<li>Rune Charged Bolt</li>
+<li>Rune Static</li>
+<li>Rune Lightning Bolt</li>
 <li>Gem: Lifesteal</li>
 <li>Enchantments:<ul>
 <li>Gain Enlightment for 6 seconds after inflicting Shock Buildup</li>
@@ -34,16 +34,16 @@ export default function LightningMage() {
 </ul>
 <h4 className="silver-gear-title">Weapon 2: Amber Husk</h4>
 <ul>
-<li>Rune 1: Lightning Leap</li>
-<li>Rune 2: Lightning Storm</li>
-<li>Rune 3: Lightning Blast</li>
-<li>Rune 4: Charged Bolt</li>
+<li>Rune Lightning Leap</li>
+<li>Rune Lightning Storm</li>
+<li>Rune Lightning Blast</li>
+<li>Rune Charged Bolt</li>
 </ul>
 <h4 className="silver-gear-title">Off-Hand: Glimmering Bulward Shield</h4>
 <ul>
-<li>Rune 1: Gain Enlightenment for 6 seconds after Parry</li>
-<li>Rune 2: Rune Damage increased by 15% while Enlightened</li>
-<li>Rune 3: Focus Gain increased by 23% while Enlightened</li>
+<li>Rune Gain Enlightenment for 6 seconds after Parry</li>
+<li>Rune Rune Damage increased by 15% while Enlightened</li>
+<li>Rune Focus Gain increased by 23% while Enlightened</li>
 <li>Gem: Gain 10% Focus when successfully Blocking Attacks</li>
 <li>Enchantments:<ul>
 <li>Gain Enlightment for 6 seconds after Parry</li>
