@@ -1,4 +1,3 @@
-import '../../styles/build-style.css';
 
 export default function Juggernaut() {
   return (
