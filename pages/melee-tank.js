@@ -1,0 +1,1 @@
+import '../styles/build-style.css'; export default function MeleeTank() { return (<div><h1>Melee-Tank Build</h1><img src="/gear/banes-skull-helm.png" title="Bane's Skull Helm" /></div>); }
