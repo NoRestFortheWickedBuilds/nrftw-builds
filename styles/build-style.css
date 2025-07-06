@@ -1,1 +1,17 @@
-img { width: 100px; }
+
+.gear-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-gap: 10px;
+}
+
+.gear-item img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.gear-item img:hover {
+  transform: scale(1.1);
+}
