@@ -1,1 +1,25 @@
-body { background-color: black; color: yellow; }
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  padding: 20px;
+}
+h1 {
+  color: yellow;
+  font-size: 28px;
+}
+.gear-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 12px;
+  margin-top: 20px;
+}
+.gear-slot img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #555;
+  border-radius: 10px;
+}

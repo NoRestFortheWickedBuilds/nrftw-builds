@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Landing Page Placeholder</div>;
+  return <div style={{ color: 'white', padding: '20px' }}>Landing page placeholder</div>;
 }
