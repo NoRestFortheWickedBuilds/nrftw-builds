@@ -1,25 +1,20 @@
-export default function MeleeTank() {
-  const gear = [
-    { name: 'Tongue Splitter', image: '/gear/tongue-splitter.png', desc: 'Greatsword with 30% dmg vs large enemies' },
-    { name: 'Fallstead’s Barricade', image: '/gear/falsteads-barricade.png', desc: 'Shield that restores focus on block' },
-    { name: 'Stormwall Gauntlets', image: '/gear/stormwall-gauntlets.png', desc: 'Poise and Focus bonuses' },
-    { name: 'Bane’s Skull Helm', image: '/gear/banes-skull-helm.png', desc: 'Stamina and Poise increases' },
-    { name: 'Bane’s Crested Armor', image: '/gear/banes-crested-armor.png', desc: 'Heavy plate with Stagger resist' },
-    { name: 'Bane’s Coarse Legs', image: '/gear/banes-coarse-legs.png', desc: 'Leg armor with +Max Stamina' },
-    { name: 'Thistle Ring', image: '/gear/thistle-ring.png', desc: 'Focus regeneration ring' },
-    { name: 'Feather Ring', image: '/gear/feather-ring.png', desc: 'Lightens equipment weight' },
-    { name: 'Snake Ring', image: '/gear/snake-ring.png', desc: 'Grants poison resistance' }
-  ];
 
+import '../styles/build-style.css';
+
+export default function MeleeTank() {
   return (
-    <div className="container">
+    <div>
       <h1>Melee Tank Build</h1>
-      <div className="gear-grid">
-        {gear.map((item, i) => (
-          <div className="gear-slot" key={i}>
-            <img src={item.image} alt={item.name} title={item.desc} />
-          </div>
-        ))}
+      <div className="grid">
+        <div className="item"><img src="/gear/tongue-splitter.png" alt="Tongue Splitter" /></div>
+        <div className="item"><img src="/gear/falsteads-barricade.png" alt="Falstead’s Barricade" /></div>
+        <div className="item"><img src="/gear/stormwall-gauntlets.png" alt="Stormwall Gauntlets" /></div>
+        <div className="item"><img src="/gear/banes-skull-helm.png" alt="Bane’s Skull Helm" /></div>
+        <div className="item"><img src="/gear/banes-crested-armor.png" alt="Bane’s Crested Armor" /></div>
+        <div className="item"><img src="/gear/banes-coarse-legs.png" alt="Bane’s Coarse Legs" /></div>
+        <div className="item"><img src="/gear/thistle-ring.png" alt="Thistle Ring" /></div>
+        <div className="item"><img src="/gear/feather-ring.png" alt="Feather Ring" /></div>
+        <div className="item"><img src="/gear/snake-ring.png" alt="Snake Ring" /></div>
       </div>
     </div>
   );
